@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz1</title>
+    <link rel='stylesheet' type='text/css' href='bootstrap1.css'>
+    <style>
+        body{background-color: rgb(50, 50, 60);}
+        table, th, td{border: 2px solid rgb(174, 196, 204)}
+        h3{color: rgb(88, 149, 172)}
+    </style>
+</head>
+<body>
+  <form class='container'>
+    <div class='form-group'>
+        <br><br>
+        <h3>1. What is HTML?</h3>
+        <p>
+            HTML is the standard markup language for creating Web pages.
+            HTML stands for Hyper Text Markup Language.
+            HTML describes the structure of a Web page.
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>2. Explain the use of &lt;head&gt;.</h3>
+        <p>
+            The &lt;head&gt; element is a container for metadata (data about data)
+            and is placed between the &lt;html&gt; tag and the &lt;body&gt; tag.
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>3. Write a boilerplate of HTML.</h3>
+        <p>
+            &lt;html&gt;<br>
+            <mno>&lt;head&gt;<br></mno>
+            <mno>&lt;/head&gt;<br></mno>
+            <mno>&lt;body&gt;<br></mno>
+            <mno>&lt;/body&gt;<br></mno>
+            &lt;/html&gt;
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>4. Write a syntax of img tag</h3>
+        <p>
+          &lt;img src="link of the image"&gt;
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>5. Include an image of an apple in your webpage.</h3>
+        <img src=https://www.purecloudsolutions.co.uk/wp-content/uploads/2017/02/apple-logo.png height=120, width=120>
+    </div>
+    <div class='form-group'>
+        <h3>6. Create a table with column StudentId, Name, Age, Grades(A,B,C,D)</h3>
+        <table style='width:50%'>
+            <tr><th>StudentId</th><th>Name</th><th>Age</th><th>Grades(A,B,C,D)</th></tr>
+            <tr><td>syp004</td><td>Minseong Kim</td><td>17</td><td>A</td></tr> 
+        </table>
+    </div>
+    <div class='form-group'>
+        <h3>7. Create a mini comics gallery use table.</h3>
+        <table>
+            <tr><td><img src=https://www.cosyowl.com/images/fragrance-red-apple-NAPL.jpg height='100' width='100'></td>
+            <td><img src=https://previews.123rf.com/images/tigatelu/tigatelu1305/tigatelu130500116/19583346-cute-green-caterpillar-cartoon.jpg height='100' width='100'></td>
+            <td><img src=https://previews.123rf.com/images/vpublic/vpublic1004/vpublic100400008/6720753-apple-worm.jpg height='100' width='100'></td>
+            <td><img src=https://cdn.clipart.email/3621f6f42d957cfb59b05880b573c4c9_half-eaten-apple-clipart-clipartxtras_202-300.jpeg height='100' width='100'></td></tr> 
+        </table>
+    </div>
+    <div class='form-group'>
+        <h3>8. For a webpage create a css file and link it withe the respective HTML file.</h3>
+        <p>
+          I did it!
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>9. Explain unordered list and create an unodered list of electronic gadgets(4-5)</h3>
+        <p>- The list items is marked with bullets</p> 
+        <ul>
+          <li>USB charger</li>
+          <li>Power bank</li>
+          <li>Bluetooth in-ear headphone</li>
+          <li>Microsd card</li>
+        </ul>
+    </div>
+    <div class='form-group'>
+        <h3>10. Explain anchor tag &lt;a&gt;. Create an anchor tag to Facebook.</h3>
+        <p>
+          The &lt;a&gt; tag defines a hyperlink, which is used to link from one page to another.
+        </p>
+        <a href="https://www.facebook.com"> https://www.facebook.com</a>
+    </div>
+    <div class='form-group'>
+        <h3>11. Explain paragraph tag &lt;p;&gt;. Using it wirte a paragraph about your home town.</h3>
+        <p>
+          Browsers automatically add some space before and after each &lt;p&gt; element.
+        </p>
+        <p>
+          My hometown in Jeju island in South Korea.
+          Jeju Island is an island formed around a large volcano called Mt. Halla, and the entire island consists mostly of basalt.
+          Jeju Island is surrounded by the sea and consists of hundreds of small mountains, so its natural scenery is beautiful everywhere.
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>12. Explain a div tag &lt;div&gt;. Create a div with a paragraph. Give a border and background color to your div.</h3>
+        <p>
+          The &lt;div&gt; tag defines a division or a section in an HTML document.
+        </p>
+        <div class="border">
+            <p>
+                <br>
+            </p>
+        </div>
+    </div>
+    <div class='form-group'>
+        <h3>13. Explain Form. Create a student registration form.(use bootstrap form)</h3>
+        <p>
+            The HTML &lt;form&gt; element defines a form that is used to collect user input.
+        </p>
+
+        <div class="form-group">
+                <label for="exampleInputUsername1"> Name </label>
+                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="First Name">
+                <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Last Name">
+              </div>
+      
+              <div class="form-group">
+                  <label for='email'> E-mail </label>
+                  <input id='email' class="form-control" type = 'email' placeholder='ex: myname@example.com'>
+              </div>
+      
+              <div class="form-group">
+                      <label for='phonenumber'> Phone Number </label><br>
+                      <input id='phonenumber' type = 'text' placeholder='Area Code'> -
+                      <input id='phonenumber' type = 'text' placeholder='Phone Number'>
+              </div>
+      
+              <div class="form-group">
+                      <label for='address'> Address: </label>
+                      <input id='address' class="form-control" type = 'text' placeholder='Street Address'>
+              </div>
+              <div class="form-group">
+                      <input id='address' class="form-control" type = 'text' placeholder='Street Address Line 2'>
+              </div>
+              <div class="form-group">
+                      <input type = 'text' class="form-control" placeholder='City'>
+              </div>
+              <div class="form-group">
+                      <input type = 'text' class="form-control" placeholder='State/Province'>
+              </div>
+              <div class="form-group">
+                      <input type = 'text' class="form-control" placeholder='Postal/Zip Code'><br>
+                      <label for='Country'> Country </label><br>
+                      <select>
+                          <option>Please Select</option>
+                      </select>
+              </div>
+      
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+              </div>
+      
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-info">Submit</button>
+
+    </div>
+    <div class='form-group'>
+        <h3>14. What is CSS?</h3>
+        <p>
+            CSS(Cascading Style Sheets) is a style sheet language used for describing the presentation of a document.
+        </p>
+    </div>
+    <div class='form-group'>
+        <h3>15. Explain Colors in CSS.</h3>
+        <p>
+            All modern browsers support the following 140 color names.
+            Else, colores can be made by combining three colors, red, green, and blue.
+            Those three colors can have 256 kinds of numbers and it can be written as hexadecimal numbers. 
+        </p>
+    </div>
+
+    <div class='form-group'>
+        <h3>16. Explain three diffrent ways of CSS styling.</h3>
+        <p>
+            Elements, Class, and ID.
+        </p><br><br>
+    </div>
+  </form>
+
+</body>
+</html>

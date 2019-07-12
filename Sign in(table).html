@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Club Membership Registration</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel='stylesheet' href="app.css">
+</head>
+<body>
+    <h1>Club Membership Registration</h1>
+    <h3>Complete the form below to sign up for our membership service.</h3><br>
+
+<form>
+<table>
+    <tr><td>
+    <div>
+        <label for="ID"> ID </label></div>
+        <td><input id="ID" type = 'text'></td>
+    </div></tr>
+
+    <tr><td>
+    <div>
+        <label for="username"> Name </label></td>
+        <td><input id="username" type = 'text' placeholder='First Name'></td>
+        <td><input id="username" type = 'text' placeholder='Last Name'></td>
+    </div></tr>
+    
+    
+    <tr><td>
+    <div>
+        <label for='email'> E-mail </label></td>
+        <td><input id='email' type = 'email' placeholder='ex: myname@example.com'></td>
+    </div></tr>
+
+    <tr><td>
+    <div>
+        <label for='phonenumber'> Phone Number: </label></td>
+        <td><input id='phonenumber' type = 'text' placeholder='Area Code'></td> 
+        <td>- <input id='phonenumber' type = 'text' placeholder='Phone Number'></td>
+    </div></tr>
+
+    <tr><td>
+    <div>
+        <label for='address'> Address: </label></td>
+        <td><input id='address' type = 'text' placeholder='Street Address'></td></tr>
+        
+        <tr><td></td><td><input id='address' type = 'text' placeholder='Street Address Line 2'></td></tr>
+        
+        <tr><td></td><td><input type = 'text' placeholder='City'></td>
+        <td><input type = 'text' placeholder='State/Province'></td></tr>
+        
+        <tr><td></td><td><input type = 'text' placeholder='Postal/Zip Code'></td>
+        <td><label for='Country'> Country </label>
+        <select>
+            <option>Please Select</option>
+        </select></td></tr>
+    </div>
+
+    <tr><td>
+    <div>
+        <label> Birth Date: </label></td>
+        <td><input type = 'date'></td>
+    </div></tr>
+</table>
+    <br>
+    <div>
+        <fieldset>
+            <legend> Where did you hear about us? </legend>
+            <input type = 'checkbox'> A Friend of colleauge <br>
+            <input type = 'checkbox'> Google <br>
+            <input type = 'checkbox'> Blog Post <br>
+            <input type = 'checkbox'> News Article <br>
+        </fieldset>
+    </div> 
+    <br><br>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
